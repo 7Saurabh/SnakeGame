@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="circle-to-locate-snakeHead opacity-changer"></div>
+    <div class="score opacity-changer"></div>
+    <div class="snake opacity-changer">
+        <div class="box" id="box0">0</div>
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    <div class="eatables opacity-changer">
+        <div class="eatable apple" id="eatable1">1</div>
+        <div class="eatable orange" id="eatable2">2</div>
+        <div class="eatable apple" id="eatable3">3</div>
+        <div class="eatable orange" id="eatable4">4</div>
+        <div class="eatable apple" id="eatable5">5</div>
+    </div>
+    <div class="game-over-container">
+        <div class="game-over-title">Game Over !</div>
+        <div class="try-again-btn" onclick="tryAgain()">Try Again</div>
+    </div>
+</body>
+<script src="snake.js"></script>
+
+</html>
